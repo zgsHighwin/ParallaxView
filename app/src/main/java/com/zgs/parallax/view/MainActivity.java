@@ -44,8 +44,7 @@ public class MainActivity extends AppCompatActivity {
         baseParallaxAdapter.addHeaderView(mHeaderView);
         //添加footer view
         View footView = ((LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE))
-                .inflate(getResources()
-                                .getIdentifier("view_footer", "layout", getPackageName())
+                .inflate(getResources().getIdentifier("view_footer", "layout", getPackageName())
                         , mRecyclerView
                         , false);
         baseParallaxAdapter.addFooterView(footView);
